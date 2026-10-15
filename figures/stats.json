@@ -1,0 +1,109 @@
+{
+  "n_pairs_above_0.9": 21,
+  "top_pairs": {
+    "mean radius ~ mean perimeter": 0.998,
+    "worst radius ~ worst perimeter": 0.994,
+    "mean radius ~ mean area": 0.987,
+    "mean perimeter ~ mean area": 0.987,
+    "worst radius ~ worst area": 0.984,
+    "worst perimeter ~ worst area": 0.978
+  },
+  "corr_with_malignant": {
+    "worst concave points": 0.794,
+    "worst perimeter": 0.783,
+    "mean concave points": 0.777,
+    "worst radius": 0.776,
+    "mean perimeter": 0.743,
+    "worst area": 0.734,
+    "mean radius": 0.73,
+    "mean area": 0.709,
+    "mean concavity": 0.696,
+    "worst concavity": 0.66,
+    "mean compactness": 0.597,
+    "worst compactness": 0.591,
+    "radius error": 0.567,
+    "perimeter error": 0.556,
+    "area error": 0.548,
+    "worst texture": 0.457,
+    "worst smoothness": 0.421,
+    "worst symmetry": 0.416,
+    "mean texture": 0.415,
+    "concave points error": 0.408,
+    "mean smoothness": 0.359,
+    "mean symmetry": 0.33,
+    "worst fractal dimension": 0.324,
+    "compactness error": 0.293,
+    "concavity error": 0.254,
+    "fractal dimension error": 0.078,
+    "symmetry error": -0.007,
+    "texture error": -0.008,
+    "mean fractal dimension": -0.013,
+    "smoothness error": -0.067
+  },
+  "pca_var": [
+    0.4427,
+    0.1897,
+    0.0939,
+    0.066,
+    0.055,
+    0.0402,
+    0.0225,
+    0.0159,
+    0.0139,
+    0.0117
+  ],
+  "ranges": {
+    "mean area": [
+      143.5,
+      2501.0
+    ],
+    "worst area": [
+      185.2,
+      4254.0
+    ],
+    "mean perimeter": [
+      43.79,
+      188.5
+    ],
+    "mean texture": [
+      9.71,
+      39.28
+    ],
+    "mean smoothness": [
+      0.0526,
+      0.1634
+    ],
+    "mean fractal dimension": [
+      0.05,
+      0.0974
+    ]
+  },
+  "skew_top": {
+    "area error": 5.45,
+    "concavity error": 5.11,
+    "fractal dimension error": 3.92,
+    "perimeter error": 3.44,
+    "radius error": 3.09
+  },
+  "importance_top10": {
+    "worst perimeter": 0.1331,
+    "worst area": 0.1281,
+    "worst concave points": 0.1081,
+    "mean concave points": 0.0944,
+    "worst radius": 0.0906,
+    "mean radius": 0.0587,
+    "mean perimeter": 0.0552,
+    "mean area": 0.0499,
+    "mean concavity": 0.0462,
+    "worst concavity": 0.0354
+  },
+  "importance_by_group": {
+    "mean": 0.353,
+    "worst": 0.558,
+    "error": 0.09
+  },
+  "dt_root": [
+    "worst radius",
+    0.13
+  ]
+}
